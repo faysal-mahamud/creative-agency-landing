@@ -225,3 +225,68 @@ p {
 }
 /* Hero part end */
 
+/* Services part start */
+.services-section {
+  padding-top: 100px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 0.5px solid #E3E3E3;
+  border-radius: 10px;
+  padding: 63px 48px;
+  min-height: 385px;
+  height: 100%;
+  transition: all linear 0.25s;
+}
+
+.service-card:hover {
+  border-color: transparent;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon-wrap {
+  width: 71px;
+  height: 71px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon-boxed {
+  border: 0.5px solid #5956E8;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: all linear 0.25s;
+}
+
+.service-icon-boxed img {
+  transition: all linear 0.25s;
+}
+
+.service-card:hover .service-icon-boxed {
+  background-color: #5956E8;
+  border-color: #5956E8;
+}
+
+.service-card:hover .service-icon-boxed img {
+  filter: brightness(0) invert(1);
+}
+
+.service-card-title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.3px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.service-card-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(24, 24, 24, 0.7);
+}
+/* Services part end */
+
