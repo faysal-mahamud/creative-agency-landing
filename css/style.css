@@ -561,3 +561,87 @@ p {
 }
 /* Blog part end */
 
+/* Footer part start */
+.site-footer {
+  background-color: rgba(89, 86, 232, 0.1);
+  min-height: 441px;
+  padding: 100px 0;
+}
+
+.footer-row {
+  justify-content: space-between;
+  row-gap: 24px;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo {
+  height: 83px;
+  width: auto;
+  display: block;
+}
+
+.footer-blurb {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #5D5D5D;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.social-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all linear 0.2s;
+}
+
+.social-fb {
+  color: #337FFF;
+}
+
+.social-tw {
+  color: #33CCFF;
+}
+
+.social-circle:hover {
+  transform: translateY(-2px);
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  color: #181818;
+  margin-bottom: 15px;
+}
+
+.footer-links li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #5D5D5D;
+}
+
+.footer-links a {
+  color: #5D5D5D;
+}
+
+.footer-links a:hover {
+  color: #5956E8;
+}
+/* Footer part end */
