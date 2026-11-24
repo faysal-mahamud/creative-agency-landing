@@ -81,3 +81,77 @@ p {
 }
 /* Common css part end */
 
+/* Header part start */
+.site-header {
+  background-color: #ffffff;
+  min-height: 151px;
+  display: flex;
+  align-items: center;
+}
+
+.site-header .navbar {
+  width: 100%;
+  padding: 33px 0 35px;
+}
+
+.site-header .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.site-header .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+.site-header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.brand-logo {
+  height: 83px;
+  width: auto;
+  display: block;
+}
+
+.nav-links-list {
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.nav-links-list .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #181818;
+  padding: 0;
+}
+
+.nav-links-list .nav-link.active,
+.nav-links-list .nav-link:hover {
+  color: #5956E8;
+}
+
+.btn-brand-purple {
+  background-color: #5956E8;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 13px 24px;
+  min-width: 144px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.2s;
+}
+
+.btn-brand-purple:hover {
+  background-color: #4744d6;
+  color: #ffffff;
+}
+/* Header part end */
+
