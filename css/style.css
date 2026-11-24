@@ -357,3 +357,54 @@ p {
 }
 /* Portfolio part end */
 
+/* Team part start */
+.team-section {
+  padding-top: 100px;
+}
+
+.team-card {
+  position: relative;
+  height: 444px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.team-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.team-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(89, 86, 232, 0) 48%, rgba(89, 86, 232, 0.92) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 34px;
+  text-align: center;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.team-role {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffffff;
+}
+/* Team part end */
+
